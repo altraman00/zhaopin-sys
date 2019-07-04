@@ -1,4 +1,4 @@
-package com.sunlands.zhaopin.domain;
+package com.sunlands.zhaopin;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
