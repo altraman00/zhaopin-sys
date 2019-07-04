@@ -16,10 +16,15 @@
     </parent>
 
     <modules>
-        <module>app-console</module>
-        <module>module-elearning-fn</module>
+        <module>web-app</module>
+        <module>web-service</module>
+        <module>module-framework-cache</module>
         <module>module-framework-config</module>
         <module>module-framework-core</module>
+        <module>module-framework-domain</module>
+        <module>module-framework-mq</module>
+        <module>module-framework-utils</module>
+        <module>module-framework-security</module>
 
 
     </modules>
