@@ -25,19 +25,16 @@
         <module>module-framework-mq</module>
         <module>module-framework-utils</module>
         <module>module-framework-security</module>
-
-
     </modules>
 
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.boot.version>1.5.10.RELEASE</spring.boot.version>
+        <spring.boot.version>2.0.5.RELEASE</spring.boot.version>
         <version.jackson>2.4.4</version.jackson>
         <spring-druid-version>1.1.0</spring-druid-version>
         <spring.framework.version>4.3.14.RELEASE</spring.framework.version>
         <elasticsearch.version>5.6.3</elasticsearch.version>
-        <mybatis.version>3.4.1</mybatis.version>
         <fasterxml.jackson.version>2.9.6</fasterxml.jackson.version>
         <apache.httpcomponents.version>4.4.1</apache.httpcomponents.version>
         <junit.version>4.12</junit.version>
@@ -47,7 +44,6 @@
         <common.logging.version>1.2</common.logging.version>
         <guava.version>23.0</guava.version>
         <slf4j.version>1.7.25</slf4j.version>
-        <spring-mybatis-version>1.3.1</spring-mybatis-version>
         <fastjson-version>1.2.39</fastjson-version>
         <commons-lang-version>2.6</commons-lang-version>
         <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
@@ -55,7 +51,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.SR1</spring-cloud.version>
     </properties>
 
 
@@ -185,7 +180,7 @@
                 <version>3.7</version>
             </dependency>
 
-            <dependency>
+            <!--<dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>1.9</version>
@@ -195,7 +190,7 @@
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils-core</artifactId>
                 <version>${commons-beanutils-core-version}</version>
-            </dependency>
+            </dependency>-->
 
             <dependency>
                 <groupId>net.sf.json-lib</groupId>
@@ -236,11 +231,11 @@
                 <artifactId>commons-io</artifactId>
                 <version>2.4</version>
             </dependency>
-            <dependency>
+            <!--<dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>1.9</version>
-            </dependency>
+            </dependency>-->
 
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
@@ -300,13 +295,6 @@
             </dependency>
 
 
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <dependency>
                 <groupId>com.sunlands.gateway</groupId>
                 <artifactId>apigateway-sdk</artifactId>
